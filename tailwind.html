@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -6,9 +6,29 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <header><h1 class="text-3xl font-bold underline">Hello world!</h1></header>
-    
-      
-    
+    <header class="mt-[50px] flex justify-center">
+      <h1 class="text-3xl font-bold">Hello world!</h1>
+    </header>
+    <div class="flex justify-center mt-5">
+      <button
+        class="rounded-full bg-sky-500 hover:bg-sky-700 text-white font-bold p-4 text-xl"
+      >
+        Click Me!
+      </button>
+    </div>
+
+    <main class="mt-10">
+      <h2 class="text-2xl text-teal-800 flex justify-center">
+        How do you like it?
+      </h2>
+      <div class=" flex justify-center items-center">
+        <p class="text-lg text-teal-500 bg-red-50 p-8 rounded-lg shadow-lg max-w-md w-full">
+          I am trying to understand TailWind CSS. Some of the classes are pretty
+          cool but there are some that are confusing. Maybe once I begin using TailWind CSS more, it won't be so hard.
+          However, I do not like the navigation of the website itself.
+        </p>
+      </div>
+    </main>
+    <footer></footer>
   </body>
 </html>
